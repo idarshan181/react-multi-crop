@@ -1,0 +1,3 @@
+microbundle --jsx jsx --jsxImportSource react --globals react/jsx-runtime=jsx --no-compress --format modern,cjs
+
+microbundle-crl --no-compress --format modern,cjs
