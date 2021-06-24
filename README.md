@@ -1,13 +1,13 @@
-# c1
+# React-multi-crop-tool
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/c1.svg)](https://www.npmjs.com/package/c1) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-multi-crop-tool.svg)](https://www.npmjs.com/package/react-multi-crop-tool) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save c1
+npm install --save react-multi-crop-tool
 ```
 
 ## Usage
@@ -15,12 +15,21 @@ npm install --save c1
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'c1'
-import 'c1/dist/index.css'
+import MyComponent from 'react-multi-crop-tool'
+import 'react-multi-crop-tool/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MultiCrops
+          src={img}
+          width={1000}
+          coordinates={this.state.coordinates}
+          onDrag={this.changeCoordinate}
+          onResize={this.changeCoordinate}
+          onDraw={this.changeCoordinate}
+          onChange={this.changeCoordinate}
+          onDelete={this.deleteCoordinate}
+        />
   }
 }
 ```
