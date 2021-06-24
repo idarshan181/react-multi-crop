@@ -56,7 +56,6 @@ class Crop extends Component {
   }
 
   handleResizeMove = (e) => {
-    console.log(e.deltaRect);
     const {
       index,
       coordinate,
@@ -125,7 +124,7 @@ class Crop extends Component {
         ref={(crop) => (this.crop = crop)}
       >
 
-        {index === 0 ? (<LabelIcon label={`Q`} />) : (<LabelIcon label={`A`} />)}
+        {index === 0 ? (<LabelIcon label="Q" />) : (<LabelIcon label="A" />)}
         <DeleteIcon onClick={this.handleDelete} />
       </div>
     )

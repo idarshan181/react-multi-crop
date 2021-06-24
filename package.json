@@ -1,12 +1,12 @@
 {
-  "name": "c2",
+  "name": "react-multi-crop-tool",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "idarshan181",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idarshan181/c2.git"
+    "url": "git+https://github.com/idarshan181/react-multi-crop.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -33,7 +33,7 @@
     "@babel/plugin-syntax-jsx": "^7.12.13",
     "babel-eslint": "^10.0.3",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^7.13.13",
+    "@babel/preset-react": "^7.14.5",
     "cross-env": "^7.0.3",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
@@ -65,11 +65,17 @@
     "styled-jsx": "^3.4.4"
   },
   "bugs": {
-    "url": "https://github.com/idarshan181/c2/issues"
+    "url": "https://github.com/idarshan181/react-multi-crop/issues"
   },
-  "homepage": "https://github.com/idarshan181/c2#readme",
+  "homepage": "https://github.com/idarshan181/react-multi-crop#readme",
   "directories": {
     "example": "example",
     "lib": "lib"
-  }
+  },
+  "keywords": [
+    "React",
+    "Multi Crop Tool",
+    "React multi cropper",
+    "React Cropper"
+  ]
 }

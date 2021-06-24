@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export const DeleteIcon = props => (
   <div className="rmc-icon-container"{...props}>
     <div className="rmc-remove" />
-    <style jsx>{`
+    <style jsx="true">{`
       .rmc-icon-container {
         width: 15px;
         height: 15px;
@@ -51,7 +51,7 @@ export const DeleteIcon = props => (
 export const LabelIcon = ({ label }) => (
   <div className="rmc_label">
     {label}
-    <style jsx>{`
+    <style jsx="true">{`
       .rmc_label {
         width: 15px;
         height: 15px;

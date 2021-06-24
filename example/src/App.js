@@ -1,8 +1,9 @@
 import React from 'react'
 
-import MultiCrops from 'c1/dist/index.modern';
-import 'c1/dist/index.css'
+import MultiCrops from 'react-multi-crop-tool/dist/index.modern';
+import 'react-multi-crop-tool/dist/index.css'
 import img from './imgs/kumamon.jpg';
+
 class App extends React.Component {
   state = {
     coordinates: [
@@ -25,6 +26,7 @@ class App extends React.Component {
       coordinates,
     })
   }
+
   render() {
     return (
       <div>

@@ -1,4 +1,5 @@
 {
   "presets": ["@babel/preset-env", "@babel/preset-react"],
-  "plugins": ["@babel/plugin-syntax-jsx"]
+  "plugins": ["@babel/plugin-syntax-jsx","transform-react-jsx","transform-class-properties",
+    "transform-object-rest-spread"]
 }
